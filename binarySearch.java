@@ -5,11 +5,11 @@ public class binarySearch {
 	public static int bS(int[] arr, int n, int key) {
 		int start = 0, end = arr.length-1, mid;
 		while(start<=end) {
-			mid = (start+end)/2;
+			mid = start+(end-start)/2;
 			if(arr[mid]==key) {//found
 				return mid;
 			}
-			else if(mid<key) {//right
+			else if(arr[mid]<key) {//right
 				start = mid+1;
 			}
 			else {//left
@@ -30,8 +30,7 @@ public class binarySearch {
 		System.out.println("Enter the key");
 		int key = sc.nextInt();
 		
-		System.out.println("found at index "+ bS(arr,n,key));
-		
+		System.out.println("found at index "+ bS(arr,n,key));		
 
 	}
 
