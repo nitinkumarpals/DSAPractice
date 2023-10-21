@@ -7,9 +7,12 @@ public class arrayReverse {
 		
 		while(start<end) {
 			
-			int temp = arr[end];
-			arr[end] = arr[start];
-			arr[start] = temp;
+			arr[start] = arr[start]+arr[end];
+			arr[end] = arr[start]-arr[end];
+			arr[start] = arr[start]-arr[end];
+//			int temp = arr[end];
+//			arr[end] = arr[start];
+//			arr[start] = temp;
 			start++;
 			end--;
 		}
