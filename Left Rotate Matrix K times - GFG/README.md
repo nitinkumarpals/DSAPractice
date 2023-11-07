@@ -1,4 +1,4 @@
-# Left Rotate Matrix K times
+<h1><a href="https://practice.geeksforgeeks.org/problems/left-rotate-matrix-k-times2351/1?utm_source=geeksforgeeks&utm_medium=ml_article_practice_tab&utm_campaign=article_practice_tab">Left Rotate Matrix K times</a><h1>
 ## Easy
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given three integers N, M, and K and a matrix Mat of dimensions NxM. Left rotate the matrix K times.</span></p>
 
