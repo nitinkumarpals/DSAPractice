@@ -1,4 +1,4 @@
-# C++ Matrix Rotation by 180 degree
+#  Matrix Rotation by 180 degree
 ## Easy
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a square matrix&nbsp;of size N X N, turn it by 180 degrees in anticlockwise direction without using extra memory.</span><br>
 &nbsp;</p>
