@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/peak-index-in-a-mountain-array/">Matrix Rotation by 180 degree
+<h2><a href="https://leetcode.com/problems/peak-index-in-a-mountain-array/">0852. Peak index in mountain array</h2>
 </a></h2><h3>Medium</h3><hr><div><p>An array <code>arr</code> is a <strong>mountain</strong> if the following properties hold:</p>
 
 <ul>
