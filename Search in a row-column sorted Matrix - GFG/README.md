@@ -1,5 +1,5 @@
-# Search in a row-column sorted Matrix
-## Medium
+<h2><a href="https://practice.geeksforgeeks.org/problems/search-in-a-matrix-1587115621/1?utm_source=geeksforgeeks&utm_medium=article_practice_tab&utm_campaign=article_practice_tab">Search in a row-column sorted Matrix GFG</a></h2>
+<h3>Medium<h3>
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given a matrix of size&nbsp;n x m, where every row and column is<strong> sorted in increasing order</strong>, and a number <strong>x.</strong>&nbsp;Find whether&nbsp;element x&nbsp;is present in the matrix or not.</span><br>
 <br>
 <span style="font-size:18px"><strong>Example 1:</strong></span></p>
