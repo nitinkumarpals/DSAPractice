@@ -1,4 +1,4 @@
-# Majority Element
+# <a href="https://practice.geeksforgeeks.org/problems/majority-element-1587115620/1?utm_source=gfg&utm_medium=article&utm_campaign=bottom_sticky_on_article">Majority Element</a>
 ## Medium
 <div class="problems_problem_content__Xm_eO"><p><span style="font-size: 18px;">Given an array <strong>A</strong> of <strong>N</strong> elements. Find the majority element in the array.&nbsp;A majority element in an array A of size N is an <strong>element that appears strictly more than N/2 times in the array</strong>.</span><br>&nbsp;</p>
 <p><span style="font-size: 18px;"><strong>Example 1:</strong></span></p>
