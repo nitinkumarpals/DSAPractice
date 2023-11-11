@@ -26,15 +26,16 @@ class Solution
         for(char c: s.toCharArray()){
             frequency[c - 'a']++;
         }
-        StringBuilder sb = new StringBuilder();
+        s="";
+        char[] sortedChars = new char[frequency.length];
         for(int i=0; i<26; i++){
             char c = (char) ('a' + i);
             while(frequency[i]>0){
-                sb.append(c);
+                s+=c;
                 frequency[i]--;
             }
         }
         
-        return sb.toString();
+        return s;
     }
 } 
