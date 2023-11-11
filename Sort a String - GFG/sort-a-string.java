@@ -27,7 +27,6 @@ class Solution
             frequency[c - 'a']++;
         }
         s="";
-        char[] sortedChars = new char[frequency.length];
         for(int i=0; i<26; i++){
             char c = (char) ('a' + i);
             while(frequency[i]>0){
