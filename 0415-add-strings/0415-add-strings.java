@@ -22,8 +22,8 @@ class Solution {
         if(carry>0){
             ans.append('1');
         }
-        ;
-        return ans.reverse().toString();
+        ans.reverse();
+        return ans.toString();
     }
     public String addStrings(String num1, String num2) {
     if(num1.length()<num2.length()){
