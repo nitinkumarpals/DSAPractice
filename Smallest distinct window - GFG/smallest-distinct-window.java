@@ -58,7 +58,7 @@ class Solution {
             len = Math.min(len,second-first);
             //while diff does not become 1
             while(diff!=1){
-            len = Math.min(len,second-first);
+            len = Math.min(len,second-first);//new length of new window
             count[str.charAt(first)]--;
             
             if(count[str.charAt(first)]==0){
