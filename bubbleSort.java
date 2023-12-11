@@ -9,9 +9,9 @@ public class bubbleSort {
 	}
 	
 	public static void bubbleSort(int[] arr) {
-		for(int i = arr.length-2; i>=0; i--) {
+		for(int i = 0; i<arr.length-1; i++) {
 			boolean swapped = false;
-			for(int j=0; j<=i; j++) {
+			for(int j=arr.length-2-i; j>=0; j--) {
 				if(arr[j]>arr[j+1]) {
 					swapped = true;
 					int temp = arr[j];
