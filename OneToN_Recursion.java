@@ -5,17 +5,16 @@ public class OneToN_Recursion {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int n = 5;
-		print(n);
+		print(n,1);
 	}
 
-	public static void print(int n) {
+	public static void print(int n, int i) {
 		// TODO Auto-generated method stub
-		if(n==1) {
-			System.out.println(n);
+		if(i>10) {
 			return;
 		}
-		print(n-1);
-		System.out.println(n);
+		System.out.println(n+" * "+i+" = "+n*i);
+		print(n,i+1);
 	}
 
 }

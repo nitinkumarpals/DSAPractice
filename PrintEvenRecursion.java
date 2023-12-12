@@ -12,11 +12,11 @@ public class PrintEvenRecursion {
 	}
 
 	public static void printEven(int n) {
-		if(n==2) {
+		if(n==1) {
 			System.out.println(n);
 			return;
 		}
-		printEven(n-2);
+		printEven(n-1);
 		System.out.println(n);
 	}
 
