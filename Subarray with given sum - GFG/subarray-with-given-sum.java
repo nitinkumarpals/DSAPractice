@@ -48,12 +48,7 @@ class Solution
         int l=0,r=0;
         int sum=arr[0];
        
-        if(s==0 && n==1){
-            res.add(1);
-            res.add(1);
-            return res;
-        }
-        if(s==0){
+        if(s==0 && n>1){
             res.add(-1);
             return res;
         }
